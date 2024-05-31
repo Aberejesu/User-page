@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    background-color: aqua;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  .user-card {
+    background-color: #f0f0f0ad;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 25%;
+  }
+  
+  .user-card img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .user-info {
+    font-size: 16px;
+  }
+  
